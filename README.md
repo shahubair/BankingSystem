@@ -1,6 +1,6 @@
 # Multithreaded Banking System Task Management Framework
 
-This project is a complete Java implementation of a generic multithreaded task management framework designed for a **Banking System**. It satisfies all 12 evaluation criteria specified in the mini-project assignment.
+This project is a complete Java implementation of a generic multithreaded task management framework designed for a **Banking System**. It satisfies all 12 evaluation criteria specified in the mini-project assignment..
 
 ---
 
