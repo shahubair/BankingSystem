@@ -10,7 +10,7 @@ Here is how each assignment requirement is implemented in this codebase:
 
 | Req # | Requirement Name | Implementation in Code |
 |---|---|---|
-| **1** | **Object-Oriented Design** | Demonstrates classes & objects (`BankAccount`, tasks), encapsulation (private fields + getters in `BankAccount`), inheritance (`BaseBankTask` extends object and is subclassed), interfaces (`BankTask`), and runtime polymorphism (`BankTask` references calling overridden `execute()` methods). |
+| **1** | **Object-Oriented Design** | Demonstrates' classes & objects (`BankAccount`, tasks), encapsulation (private fields + getters in `BankAccount`), inheritance (`BaseBankTask` extends object and is subclassed), interfaces (`BankTask`), and runtime polymorphism (`BankTask` references calling overridden `execute()` methods). |
 | **2** | **Runnable-Based Task Design** | `BankTask` extends `Runnable`. Concrete task implementations include `DepositTask`, `WithdrawTask`, `TransferTask`, `InterestCalculationTask`, and `StatementGenerationTask`. |
 | **3** | **Multiple Threads** | Spawns and executes 6 concurrent threads (`Thread-1` to `Thread-6`) managing deposits, withdrawals, transfers, interest application, and statements. |
 | **4** | **Thread Life Cycle** | Inspects and displays thread states via `Thread.getState()`. Captures `NEW` before starting, `RUNNABLE`/`TIMED_WAITING` during execution, `WAITING` during joins, and `TERMINATED` at completion. |
